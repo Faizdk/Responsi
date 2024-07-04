@@ -120,6 +120,7 @@
                      <p>Cashier Management (2023)</p>
                      <p>HeartSync Application (2023)</p>
                      <p>Tentang Rumahku MVC (2022)</p>
+                     <p>Coca Cola Ads (2022)</p>
                     </div>
                   </div>
                 </div>
@@ -207,4 +208,5 @@ export default {
   background-color: inherit;
   width: 50%;
 }
+  
 </style>
