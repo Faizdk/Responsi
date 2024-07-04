@@ -9,7 +9,7 @@
               <div class="card">
                 <div class="card-body">
                   <div class="d-flex flex-column align-items-center text-center">
-                    <img src="E:\AMIKOM\semester 4\PWEB\Responsi\nuxt-individu-main\assets\img\foto profil.jpg" alt="Admin" class="rounded-circle" width="150">
+                    <img src="/Responsi-main/nuxt-individu-main/assets/img/foto profil.jpg" alt="Admin" class="rounded-circle" width="150">
                     <div class="mt-3">
                       <h4>Faiz Daffa Kurnia</h4>
                       <p class="text-secondary mb-1">Junior Frontend Developer</p>
@@ -149,6 +149,25 @@
         </div>
     </div>
   </section>
+  <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Riwayat Pendidikan</h1> 
+  </div>
+  <div class="timeline">
+  <div class="container l">
+    <div class="content">
+      <h2>2022 - Sekarang</h2>
+      <p>Universitas Amikom Yogyakarta</p>
+    </div>
+  </div>
+  <div class="container r">
+    <div class="content">
+      <h2>2018 - 2021</h2>
+      <p>Islamic Center Bin Baz</p>
+    </div>
+  </div>
+</div>
+</div>
 </template>
 
 <script>
@@ -166,7 +185,7 @@ export default {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background-image: url(https://img.freepik.com/free-photo/blue-paint-wall-background-texture_53876-14183.jpg?t=st=1720014501~exp=1720018101~hmac=89213c910684ac5fc1ec335882d4e4857bee78ab2359e874d7e7e57299ba578d&w=1380);
+  background-image: url(https://images.unsplash.com/photo-1628882185379-0dd168dfd07a?q=80&w=2008&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   
 }
 
@@ -180,5 +199,29 @@ export default {
   border-radius: 10px;
 }
 
-</style>
+.timeline {
+  margin-top: 800px;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+</style>
